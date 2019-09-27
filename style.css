@@ -7,46 +7,119 @@
     padding: 0;
 }
 
-body {
+a:hover {
+    color: deeppink;
+}
 
+body{
+    background-color: #FFC5C3;
+}
+
+.banner{
+    text-align: center;
+    display: flex;
+
+}
+footer {
+    text-align: center;
 }
 
 html {
     font: 20px/1 Karla,sans-serif;
+    
 }
 
+
 h1 {
-    color:pink;
-    text-align: center 
+    color: orange;
 }
 h2 { 
     color: blueviolet;
     font-size: 30px;
-    text-align: center;
     
 }
+hr {
+  flex: 1;  
+  padding: 20px 0px 0px 0px;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-title {
+    flex: 1;
+}
+
+.left-section{
+    flex: 1;
+    display: inline-block;
+
+}
+
+.right-section{
+    flex: 3;
+    display: inline-block;
+    
+
+
+}
+
 .main-header {
+    align-items: center;
     background-color: aliceblue;
     display:flex; 
     justify-content: space-between;
     margin-bottom: 1rem;
-    padding: 1rem 2rem;
+    padding: 1rem;
+}
+
+
+
+.my-info-image-container {
+    padding: 0px 0px 0px 50px;
+}
+
+.my-info-avatar {
+    border-radius: 100%;
+    width: 400px;
+
+}
+
+.nav-list{
+    display: flex;
+}
+.nav-list-item {
+    margin-right: 1rem;
 }
 
 .top {
     display: flex;
 }
 
+
+
 p {
     color: coral;
     font-family: verdana;
     font-size: 20px;
+    text-align: left;
+    padding: 1em 3em;
+
+}
+
+#projects {
+    text-align: left;
+
+}
+
+
+.skillz {
     text-align: center;
 }
-section {
-    text-align: center;
-}
+
+
  ul {
-      list-style: circle;
+    list-style: none;
     text-align: center;
     }
