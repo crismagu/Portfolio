@@ -17,7 +17,20 @@ body{
 
 .banner{
     text-align: center;
-    display: flex;
+    display: grid;
+    padding: 0 5vw; /* padding: top & bottom , left & right */
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.banner .fake-bar {
+    border-top: solid #000000 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.project-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 }
 
@@ -25,12 +38,13 @@ body{
    
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     display: flex;
-    flex-direction: row;
     
+    
+    grid-column-end: span 1;
     transition: 0.3s;
     border-radius: 5px;
     padding: 2px 16px 2px;
-    width: 40%;
+    margin: 4px;
 }
 
 .card::after{
@@ -40,7 +54,8 @@ body{
 }
 
 footer {
-    text-align: center;
+    text-align: left;
+    width: 100vw;
 }
 
 html {
