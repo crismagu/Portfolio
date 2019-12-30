@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import Images from "../Components/Images/cristina_gutierrez.jpg";
 
 class Landing extends Component {
   render() {
